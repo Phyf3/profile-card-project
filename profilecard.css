@@ -79,8 +79,8 @@ body {
     opacity: 0.7;
   }
 
-  .attribution { font-size: 11px; text-align: center; position: relative; bottom: 900px;}
-  .attribution a { color: hsl(228, 45%, 44%); }
+  /*.attribution { font-size: 11px; text-align: center; position: relative; bottom: 900px;}
+  .attribution a { color: hsl(228, 45%, 44%); }*/
 
   #bottom-bg {
     position: relative;
