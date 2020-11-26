@@ -1,0 +1,91 @@
+body {
+    position:fixed;
+    width:  1440px;
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+  }
+
+  #top-bg {
+    position: absolute;
+    right: 750px;
+    bottom: 200px;
+  }
+
+  #card {
+    text-align: center;
+    height: 350px;
+    width: 350px;
+    margin-left: 20vw;
+    margin-top: 100px;
+    border: 2px;
+    border-radius:40px;
+    box-shadow:5px 5px 30px hsl(229, 23%, 23%);
+    position: relative;
+    top:80px;
+    left: 310px;
+    z-index: 2;
+  }
+
+
+  #card-content {
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    background-color: white;
+    position:relative;
+    top: 140px;
+    height: 220px;
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .profile-pic {
+    border: 5px solid white;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .header-img {
+    border-radius: 20px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    position: absolute;
+    bottom: 220px;
+    right: 0px;
+  }
+
+  #name {
+    position: relative;
+    bottom:30px;
+  }
+
+  #stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 15px;
+  
+  }
+  li {
+    list-style-type: none;
+  }
+
+  small {
+    opacity: 0.5;
+  }
+
+  span {
+    opacity: 0.7;
+  }
+
+  .attribution { font-size: 11px; text-align: center; position: relative; bottom: 900px;}
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+  #bottom-bg {
+    position: relative;
+    left: 800px;
+    bottom: 100px;
+    z-index: 1;
+  }
